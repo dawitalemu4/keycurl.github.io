@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+#doc-page {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vh - 70px);
+    margin-top: 70px;
+    flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: 'CascadiaMono';
+    src: url('assets/CascadiaMonoNerdFont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('assets/Ubuntu-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'InterMedium';
+    src: url('assets/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'InterSemi';
+    src: url('assets/Inter-SemiBold.ttf') format('truetype');
+}

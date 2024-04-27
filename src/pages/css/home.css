@@ -1,0 +1,69 @@
+#home-videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-videos video {
+    width: 95%;
+    max-width: 1200px;
+    max-height: 80vh;
+    cursor: pointer;
+}
+
+#home-videos .arrow {
+    font-size: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#home-videos .arrow:hover {
+    scale: 1.1;
+}
+
+#home-download {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#home-download a {
+    display: flex;
+    width: 250px;
+    height: 100px;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 30px;
+    user-select: none;
+}
+
+#home-download a:first-child {
+    background-color: grey;
+}
+
+#home-download a:last-child {
+    background-color: #007bff;
+}
+
+#home-download a:hover {
+    opacity: 1 !important;
+    scale: 1.05;
+}
+
+#home-download a .icon {
+    font-size: 45px;
+    margin-right: 15px;
+}
+
+@media (max-width: 600px) {
+
+    #home {
+        display: none;
+    }
+}
