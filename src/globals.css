@@ -41,8 +41,3 @@ body::-webkit-scrollbar-thumb {
     font-family: 'InterMedium';
     src: url('assets/Inter-Medium.ttf') format('truetype');
 }
-
-@font-face {
-    font-family: 'InterSemi';
-    src: url('assets/Inter-SemiBold.ttf') format('truetype');
-}

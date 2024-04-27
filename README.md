@@ -8,6 +8,6 @@
 
 [postwoman.dev](https://postwoman.dev) is a website that documents [postwoman](https://github.com/dawitalemu4/postwoman).
 
-Look in `src/docs` for the markdown files that make up the different pages and feel free to contribute.
+Look in `public/docs` for the markdown files that make up the different pages and feel free to contribute.
 
 Made with [Solid.js](https://www.solidjs.com), TypeScript, and Markdown.

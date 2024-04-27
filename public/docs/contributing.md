@@ -12,7 +12,7 @@ Here is a tutorial on how to contribute to public repos from [GitHub's docs](htt
 
 ## PR Checklist
 
-- &#x2610; Follows the [Things I Want to Keep](#things-i-want-to-keep)
+- &#x2610; Follows the Things I Want to Keep
 - &#x2610; Does it pass the tests?
 - &#x2610; Does it work on Docker? (use the test locally section in the Dockerfile) 
 
