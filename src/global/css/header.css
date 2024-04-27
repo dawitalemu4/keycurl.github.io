@@ -1,0 +1,42 @@
+#header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 100px);
+    height: 70px;
+    padding-left: 70px;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28282B;
+    color: white;
+    border-bottom: 1px solid #161616;
+    z-index: 1;
+}
+
+#header-title {
+    font-size: 20px;
+}
+
+#header-links {
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+#header-links a {
+    color: white;
+}
+
+#header-links a:last-child {
+    margin-left: 15px;
+}
+
+#header-links a > * {
+    transition: 0.5s;
+}
+
+#header-links a > *:hover {
+    scale: 1.1;
+}
+

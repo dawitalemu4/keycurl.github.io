@@ -1,0 +1,52 @@
+#doc-page div {
+    padding: 30px 70px;
+    font-family: InterMedium;
+    line-height: 2;
+}
+
+#doc-page div:nth-last-child(2) {
+    margin-bottom: 100px;
+}
+
+#doc-page div a {
+    color: white;
+}
+
+#doc-page div a:hover {
+    opacity: 0.7;
+}
+
+#doc-page div code {
+    font-size: 14px;
+    font-family: CascadiaMono;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#doc-page div pre {
+    text-wrap: wrap;
+    word-break: break-all;
+}
+
+#doc-page div pre code {
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+#doc-page div blockquote {
+    margin: 20px;
+    padding: 5px 25px;
+    background-color: #28282B;
+    border-left: 5px solid #ccc;
+}
+
+#doc-page div blockquote img {
+    max-width: 60%;
+}
+
+@media (max-width: 600px) {
+    #doc-page div {
+        padding: 30px 50px;
+    }
+}
