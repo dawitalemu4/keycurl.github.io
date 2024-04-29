@@ -2,13 +2,14 @@ import { Component } from 'solid-js';
 import { RouteSectionProps, Router, Route } from '@solidjs/router';
 import Sidebar from './global/sidebar';
 import Header from './global/header';
+import Footer from './global/footer';
 import Home from './pages/home';
 import Features from './pages/features';
 import Install from './pages/install';
 import Shortcuts from './pages/shortcuts';
 import Contributing from './pages/contributing';
 import FAQ from './pages/FAQ';
-import Footer from './global/footer';
+import Error from './pages/error';
 import './globals.css';
 
 const Layout: Component<RouteSectionProps> = (props) => (
@@ -32,6 +33,7 @@ const App = () => {
             <Route path="/shortcuts" component={Shortcuts} />
             <Route path="/contributing" component={Contributing} />
             <Route path="/FAQ" component={FAQ} />
+            <Route path="*404" component={Error} />
         </Router>
     );
 };
