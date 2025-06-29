@@ -3,16 +3,16 @@
 
 ## Docker Setup
 
-See the README in the [.docker-setup](https://github.com/dawitalemu4/postwoman/tree/main/.docker-setup) folder for the docker setup guide.
+See the README in the [.docker-setup](https://github.com/dawitalemu4/keycurl/tree/main/.docker-setup) folder for the docker setup guide.
 
 
 ## Local Setup
 
-To locally run postwoman, you need to have Go, PostgreSQL, Bash, and cURL installed on your machine.
+To locally run keycurl, you need to have Go, PostgreSQL, Bash, and cURL installed on your machine.
 
 1. Download the ZIP of the repo or clone the repository
 ```bash
-git clone https://github.com/dawitalemu4/postwoman.git
+git clone https://github.com/dawitalemu4/keycurl.git
 ```
 
 2. Install the dependencies

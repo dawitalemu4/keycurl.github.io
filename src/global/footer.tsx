@@ -17,7 +17,7 @@ const Footer: Component = () => {
 
     return (
         <div id='footer'>
-            <a href={`https://github.com/dawitalemu4/postwoman.dev/blob/main/public/docs${page()}.md`} target='_blank'>Contribute to this page <TbPencil /></a>
+            <a href={`https://github.com/dawitalemu4/keycurl.github.io/blob/main/public/docs${page()}.md`} target='_blank'>Contribute to this page <TbPencil /></a>
         </div>
     );
 };
