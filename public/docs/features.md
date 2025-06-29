@@ -1,4 +1,4 @@
-Go [here](https://github.com/dawitalemu4/postwoman.dev/blob/main/src/pages/features.tsx) to contribute to the features page.
+Go [here](https://github.com/dawitalemu4/keycurl.github.io/blob/main/src/pages/features.tsx) to contribute to the features page.
 
 
 # Features

@@ -21,4 +21,4 @@ Here is a tutorial on how to contribute to public repos from [GitHub's docs](htt
 
 - &#x2610; Is the issue clear?
 - &#x2610; Did you read the other issues?
-- &#x2610; Did you read the `.md` files in the [docs folder](https://github.com/dawitalemu4/postwoman.dev/tree/main/public/docs)?
+- &#x2610; Did you read the `.md` files in the [docs folder](https://github.com/dawitalemu4/keycurl.github.io/tree/main/public/docs)?

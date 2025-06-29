@@ -1,7 +1,7 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/dawitalemu4/postwoman?style=for-the-badge&logo=github)
-![GitHub forks](https://img.shields.io/github/forks/dawitalemu4/postwoman?style=for-the-badge&logo=github&color=green)
+![GitHub Repo stars](https://img.shields.io/github/stars/dawitalemu4/keycurl?style=for-the-badge&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/dawitalemu4/keycurl?style=for-the-badge&logo=github&color=green)
 
-Postwoman is a self-hosted dev tool that achieves what postman does but with my personal preferences in its functionality and design. Made with Go (Echo), HTMX, and cURL.
+Keycurl is a self-hosted dev tool that achieves what postman does but with my personal preferences in its functionality and design. Made with Go (Echo), HTMX, and cURL.
 
 
 ## Differences from Postman

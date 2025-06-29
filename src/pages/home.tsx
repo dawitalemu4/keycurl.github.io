@@ -34,8 +34,8 @@ const Home: Component = () => {
                     </SliderProvider>
                 </div>
                 <div id='home-download'>
-                    <a href='/postwoman.zip' target='_blank'><TbDownload class='icon' /> ZIP</a>
-                    <a href='https://github.com/dawitalemu4/postwoman/tree/main/.docker-setup' target='_blank'><TbBrandDocker class='icon' /> Docker</a>
+                    <a href='/keycurl.zip' target='_blank'><TbDownload class='icon' /> ZIP</a>
+                    <a href='https://github.com/dawitalemu4/keycurl/tree/main/.docker-setup' target='_blank'><TbBrandDocker class='icon' /> Docker</a>
                 </div>
             </div>
             <RenderMarkdown file='home.md' />

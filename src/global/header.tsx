@@ -8,10 +8,10 @@ const Header: Component = () => {
     return (
         <div id='header'>
             <div id='header-title'>
-                <p>postwoman:~</p>
+                <p>keycurl:~</p>
             </div>
             <div id='header-links'>
-                <a href='https://github.com/dawitalemu4/postwoman' target='_blank'><TbBrandGithub /></a>
+                <a href='https://github.com/dawitalemu4/keycurl' target='_blank'><TbBrandGithub /></a>
                 <a href='https://mail.google.com/mail?view=cm&fs=1&to=postwoman.dev@gmail.com&su=Draft' target='_blank'><AiOutlineMail /></a>
             </div>
         </div>
